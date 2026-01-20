@@ -64,3 +64,11 @@ footer {
   background-color: #f0f4ff;
   color: #222;
 }
+
+.profile-image {
+  float: right;
+  width: 200px;
+  height: auto;
+  margin: 0 0 1rem 1rem;
+}
+
