@@ -72,3 +72,23 @@ footer {
   margin: 0 0 1rem 1rem;
 }
 
+.image-overlay {
+  position: relative;
+}
+
+.image-overlay img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-overlay h2 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgb(0 0 0 / 60%);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+
