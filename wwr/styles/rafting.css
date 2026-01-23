@@ -83,3 +83,26 @@ nav, p, section, article {
   width: 125px;
   margin-left: 12px;
 }
+
+
+.hero {
+  position: relative;
+}
+
+.hero h1 {
+  position: absolute;
+}
+
+.hero article {
+  position: absolute;
+}
+
+.hero article img {
+  float: right;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+
