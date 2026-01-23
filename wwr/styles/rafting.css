@@ -45,6 +45,10 @@ nav, p, section, article {
   padding: 8px;
 }
 
+nav {
+  background-color: var(--secondary-color);
+}
+
 .hero {
   position: relative;
 }
@@ -85,4 +89,5 @@ nav, p, section, article {
 .socialmedia a {
   text-decoration: none;
 }
+
 
