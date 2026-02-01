@@ -45,6 +45,7 @@ header {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
+  gap: 20px;
 
   background-color: var(--secondary-color);
   padding: 12px 20px;
@@ -55,6 +56,8 @@ header img {
   width: 110px;
 }
 
+
+/* NAV */
 nav ul {
   display: flex;
   justify-content: flex-end;
@@ -167,7 +170,12 @@ footer {
 
 .socialmedia {
   display: flex;
-  gap: 10px;
+  gap: 12px;
+}
+
+.socialmedia img {
+  width: 28px;
+  height: 28px;
 }
 
 .socialmedia a {
