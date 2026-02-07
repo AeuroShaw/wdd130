@@ -4,11 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us | White Water Rafting Company</title>
-
-  <meta name="description" content="Discover our rafting company’s history, mission, and passion for delivering safe and unforgettable white-water adventures.">
+  <title>Contact Us | White Water Rafting Company</title>
   <meta name="author" content="Eyuro Foluso">
-
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -29,61 +26,73 @@
 
 <main>
 
-  <div class="hero">
-    <img src="images/hero.jpg" alt="White water rafting adventure">
+  <h1 class="center">White Water Rafting Company</h1>
 
-    <h1>White Water Rafting Company</h1>
-
-    <article>
-      <p>
-        Our purpose is to provide exciting and safe rafting experiences while
-        building teamwork and unforgettable memories.
-      </p>
-      <img src="images/happyraftingclient.jpg" alt="Happy rafting client">
-    </article>
-  </div>
-
-  <section class="history">
-    <h2>History</h2>
-    <div class="history-grid">
-      <p>
-        Our rafting company began with a passion for river exploration and has
-        grown into a trusted adventure provider.
-      </p>
-      <img src="images/history.jpg" alt="Company history">
-      <p>
-        Today we guide adventurers of all skill levels and continue to create
-        safe, fun, and memorable trips for everyone.
-      </p>
-    </div>
+  <section class="company-details center">
+    <p>
+      123 Main River Street<br>
+      Kolob, California<br>
+      +1 999 999 9999<br>
+      info@whitewater.com
+    </p>
   </section>
 
-  <section class="adventure">
-    <h2>Adventure Awaits You!</h2>
+  <section class="contact-layout">
+
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019843993245!2d-122.41941518468102!3d37.77492977975925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064df12345%3A0x1234567890abcdef!2sRiver%20Adventure%20Valley!5e0!3m2!1sen!2sus!4v0000000000000"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="contact-form">
+      <form action="#" method="post">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <p><strong>Message Purpose</strong></p>
+
+        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+        <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <label>
+          <input type="checkbox" name="subscribe">
+          Please subscribe me to the monthly newsletter
+        </label>
+
+        <button type="submit" class="submit-btn">Get in Touch!</button>
+
+      </form>
+    </div>
+
+  </section>
+
+  <section class="employees">
+    <h2>We Are Here to Serve You</h2>
 
     <figure>
-      <img src="images/raft1.jpg" alt="Los Dientes del Diablo">
-      <figcaption>Los Dientes del Diablo</figcaption>
+      <img src="images/guide1.jpg" alt="River Guide">
+      <figcaption>River Guide</figcaption>
     </figure>
 
     <figure>
-      <img src="images/raft2.jpg" alt="Big Mallard">
-      <figcaption>Big Mallard</figcaption>
+      <img src="images/guide2.jpg" alt="Safety Instructor">
+      <figcaption>Safety Instructor</figcaption>
     </figure>
 
     <figure>
-      <img src="images/raft3.jpg" alt="Half Day Adventure">
-      <figcaption>Half Day Adventure</figcaption>
-    </figure>
-
-    <figure>
-      <img src="images/raft4.jpg" alt="Rapid Rush">
-      <figcaption>Rapid Rush</figcaption>
-    </figure>
-
-    <figure>
-      <img src="images/raft5.jpg" alt="Sunset Float">
-      <figcaption>Sunset Float</figcaption>
+      <img src="images/guide3.jpg" alt="Trip Coordinator">
+      <figcaption>Trip Coordinator</figcaption>
     </figure>
   </section>
 
@@ -93,15 +102,9 @@
   <p>© 2026 White Water Rafting Company | Eyuro Ben Jnr</p>
 
   <nav class="socialmedia">
-    <a href="https://facebook.com" target="_blank">
-      <img src="images/facebook.png" alt="Facebook">
-    </a>
-    <a href="https://twitter.com" target="_blank">
-      <img src="images/twitter.png" alt="Twitter">
-    </a>
-    <a href="https://instagram.com" target="_blank">
-      <img src="images/instagram.png" alt="Instagram">
-    </a>
+    <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+    <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+    <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
   </nav>
 </footer>
 
