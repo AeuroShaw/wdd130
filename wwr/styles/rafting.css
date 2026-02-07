@@ -165,3 +165,60 @@ footer {
 .socialmedia a {
   text-decoration: none;
 }
+
+.center {
+  text-align: center;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  margin-top: 0.8rem;
+  padding: 0.8rem;
+  background-color: #1b6ca8;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
+.employees {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.employees figure {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.employees img {
+  width: 150px;
+}
